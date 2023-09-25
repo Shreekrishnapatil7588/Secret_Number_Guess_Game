@@ -7,11 +7,12 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
-
-    char playAgain;
+    const int minNumber;
+    const int maxNumber;
+    cin>>maxnumber;
     
+
+    char playAgain
     do {
         int secretNumber = rand() % (maxNumber - minNumber + 1) + minNumber;
         int attempts = 0;
